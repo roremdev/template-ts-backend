@@ -1,0 +1,10 @@
+# server
+node_modules/
+dist/
+.env
+# jest
+coverage/
+# macos
+.DS_Store
+# docker
+docker/

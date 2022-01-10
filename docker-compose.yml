@@ -1,0 +1,36 @@
+services:
+  node:
+    image: node:14
+    container_name: ${MODE}
+    working_dir: /server
+    environment:
+      - NODE_ENV=${MODE}
+    ports:
+      - ${PORT}:${PORT}
+    expose:
+      - ${PORT}
+    volumes:
+      - ./package.json:/server/package.json
+      - ./package-lock.json:/server/package-lock.json
+      - ./dist:/server
+      - ./prisma:/server/prisma
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+    command: "npm start"
+
+  postgres:
+    container_name: postgres
+    image: postgres
+    restart: always
+    ports:
+      - ${DB_PORT}:5432
+    expose:
+      - '5432'
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./docker:/var/lib/postgresql/data
+      # - ./docker/config/init.sql:/docker-entrypoint-initdb.d/init.sql

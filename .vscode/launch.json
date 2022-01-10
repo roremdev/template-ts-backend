@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Global debugger",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/index.ts",
+            "envFile": "${workspaceFolder}/.env",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node"
+        },
+        {
+            "name": "Unit debugger",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug/index.ts",
+            "envFile": "${workspaceFolder}/.env",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/ts-node"
+        }
+    ]
+}
