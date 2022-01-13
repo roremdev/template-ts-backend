@@ -1,7 +1,10 @@
 ---
-title: Reason
+name: Bug report
+about: Create a report to help us improve
+title: ''
 labels: Bug
-assignees:
+assignees: roremdev
+
 ---
 
 ![bug](https://img.shields.io/badge/🔥_Issue-2E3440?style=for-the-badge)

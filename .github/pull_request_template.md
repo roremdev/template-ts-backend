@@ -1,8 +1,3 @@
----
-title: Reason
-assignees:
----
-
 ### Description
 
 > Any description of why you want to merge this pull request.
@@ -19,7 +14,7 @@ assignees:
 
 **🔥 Removed**
 
--   For now removed features.
+-   For removed features.
 
 **🐛 Fixed**
 
