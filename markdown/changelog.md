@@ -10,21 +10,21 @@ All notable changes to this project will be documented in this file.
 
 **✨ Added**
 
-- For new features.
+-   For new features.
 
 **♻️ Changed**
 
-- For changes in existing functionality.
-
-**🔥 Removed**
-
-- For now removed features.
+-   For changes in existing functionality.
 
 **🐛 Fixed**
 
-- For any bug fixes.
-  - A simple indentation
+-   For any bug fixes.
+    -   A simple indentation
 
-[version]: https://img.shields.io/badge/version-v0.0.0-ECEFF4?style=for-the-badge&logo=Node.js
+**🔥 Breake changes**
+
+-   For fragile changes.
+
+[version]: https://img.shields.io/badge/version-v0.0.0-EBCB8B?style=for-the-badge&logo=Node.js&logoColor=EBCB8B
 
 ---
