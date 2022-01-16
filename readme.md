@@ -48,7 +48,7 @@ This project uses the following environment variables:
 
 > **Note.** The environment variables are set by the `.env` file. You can follow the structure to change the name of `.env.example` file.
 
-### 📦 Docker for production
+### 🚀 Docker for production
 
 For to run the docker containers, you need to use the implementation:
 

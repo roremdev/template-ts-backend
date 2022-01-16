@@ -8,7 +8,7 @@
         "test": "jest",
         "dev": "NODE_ENV=dev nodemon ./src/index",
         "prebuild": "rm -rf dist",
-        "build": "tsc",
+        "build": "tsc -p tsconfig.build.json",
         "prestart": "npm ci",
         "start": "node src/index.js"
     },
@@ -117,7 +117,7 @@
         }
     },
     "prisma": {
-        "schema": "./prisma/schema.prisma",
-        "seed": "babel-node ./prisma/seed.js"
+        "schema": "./src/prisma/schema.prisma",
+        "seed": "ts-node ./src/prisma/index.js"
     }
 }

@@ -1,6 +1,6 @@
 import 'module-alias/register'
 import supertest from 'supertest'
-import server from '../src/server'
+import server from '@src/server'
 
 const request = supertest(server)
 
