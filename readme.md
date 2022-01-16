@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./markdown/logo.svg" alt="Logo" width="80" height="80">
+    <img src="./markdown/logo.svg" alt="Logo" width="80" height="80" />
     <h3 align="center">Project Name</h3>
     <p align="center">Description</p>
 </p>

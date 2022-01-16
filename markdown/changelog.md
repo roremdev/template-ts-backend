@@ -4,7 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-![version][version]
+![version](https://img.shields.io/badge/version-v0.0.0-EBCB8B?style=for-the-badge)
+
+### Description
 
 > Any description of why you want to merge this pull request.
 
@@ -16,15 +18,13 @@ All notable changes to this project will be documented in this file.
 
 -   For changes in existing functionality.
 
+**🔥 Removed**
+
+-   For removed features.
+
 **🐛 Fixed**
 
 -   For any bug fixes.
     -   A simple indentation
-
-**🔥 Breake or removed changes**
-
--   For fragile changes.
-
-[version]: https://img.shields.io/badge/version-v0.0.0-EBCB8B?style=for-the-badge&logo=Node.js&logoColor=EBCB8B
 
 ---
