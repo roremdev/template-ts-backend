@@ -28,25 +28,29 @@ Husky is a tool that helps you to configure git hooks. Since the reason for use 
 | feat    | `feat: ✨ [message]`           | Add a new feature                                                                                          |
 | removed | `removed: 🔥 [message]`        | Changes on removed files                                                                                   |
 
-### Following Pull Request and Issues
-
-#### 📌 Comments
+### 📌 Following Comments
 
 | Tag                                                                           | Description                       |
 | ----------------------------------------------------------------------------- | --------------------------------- |
 | ![question](https://img.shields.io/badge/question-8FBCBB?style=for-the-badge) | Further information is requested. |
 
-#### 🏷 Labels
+### 🏷 Labels
 
-| Name                      | Description                                                                      |
-| ------------------------- | -------------------------------------------------------------------------------- |
-| ![backend][backend]       | Changes on determinate environments.                                             |
-| ![bug][bug]               | Indicates an unexpected problem or unintended behavior.                          |
-| ![database][database]     | Changes on determinate environments.                                             |
-| ![deployment][deployment] | Indicates a release version is ready testing, staging or production environment. |
-| ![docs][docs]             | Indicates a need for improvements or additions to documentation.                 |
-| ![fix][fix]               | Indicates the existence of an alpha version that require an integration local.   |
-| ![review][review]         | Indicates that the changes needs a revision.                                     |
+#### Pull Request
+
+| Name                                      | Description                                                                      |
+| ----------------------------------------- | -------------------------------------------------------------------------------- |
+| ![backend][backend] ![database][database] | Changes on determinate environments.                                             |
+| ![deployment][deployment]                 | Indicates a release version is ready testing, staging or production environment. |
+| ![docs][docs]                             | Indicates a need for improvements or additions to documentation.                 |
+| ![review][review]                         | Indicates that the changes needs a revision.                                     |
+
+#### Issue
+
+| Name        | Description                                                                    |
+| ----------- | ------------------------------------------------------------------------------ |
+| ![bug][bug] | Indicates an unexpected problem or unintended behavior.                        |
+| ![fix][fix] | Indicates the existence of an alpha version that require an integration local. |
 
 [backend]: https://img.shields.io/badge/Backend-D08770?style=for-the-badge
 [bug]: https://img.shields.io/badge/Bug-BF616A?style=for-the-badge
