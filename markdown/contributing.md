@@ -25,7 +25,8 @@ Husky is a tool that helps you to configure git hooks. Since the reason for use 
 | refac   | `refactor: ♻️ [message]`       | A code change that neither fixes a bug nor adds a feature                                                  |
 | style   | `style: 🎨 [message]`          | Add changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc) |
 | docs    | `docs: 📚 [message]`           | Add documentation changes                                                                                  |
-| feat    | `feat :✨ [message]`           | Add a new feature                                                                                          |
+| feat    | `feat: ✨ [message]`           | Add a new feature                                                                                          |
+| removed | `removed: 🔥 [message]`        | Changes on removed files                                                                                   |
 
 ### Following Pull Request and Issues
 

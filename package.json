@@ -119,5 +119,55 @@
     "prisma": {
         "schema": "./src/prisma/schema.prisma",
         "seed": "ts-node ./src/prisma/index.js"
+    },
+    "commitlint": {
+        "extends": [
+            "@commitlint/config-conventional"
+        ],
+        "parserPreset": "conventional-changelog-conventionalcommits",
+        "rules": {
+            "type-case": [
+                2,
+                "always",
+                "lower-case"
+            ],
+            "type-empty": [
+                2,
+                "never"
+            ],
+            "type-enum": [
+                2,
+                "always",
+                [
+                    "feat",
+                    "fix",
+                    "docs",
+                    "style",
+                    "refactor",
+                    "test",
+                    "ci",
+                    "work",
+                    "chore",
+                    "remove"
+                ]
+            ],
+            "scope-empty": [
+                0
+            ],
+            "subject-case": [
+                2,
+                "always",
+                "lower-case"
+            ],
+            "subject-empty": [
+                2,
+                "never"
+            ],
+            "subject-full-stop": [
+                2,
+                "never",
+                "."
+            ]
+        }
     }
 }
