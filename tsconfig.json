@@ -20,6 +20,5 @@
             "@utils/*": ["./src/utils/*"],
             "@validators/*": ["./src/validators/*"]
         }
-    },
-    "exclude": ["test/**/*.test.ts"]
+    }
 }
