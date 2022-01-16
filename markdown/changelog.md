@@ -21,7 +21,7 @@ All notable changes to this project will be documented in this file.
 -   For any bug fixes.
     -   A simple indentation
 
-**🔥 Breake changes**
+**🔥 Breake or removed changes**
 
 -   For fragile changes.
 
